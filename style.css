@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    background-color:rgb(247, 235, 218)
+}
+
+.box {
+    border:solid black;
+    width: 700px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+p {
+    font-size: 27px;
+}
+label {
+    font-size: 27px;
+}
+#img {
+    width: 400px;
+}
+
+h1{
+    font-size: 60px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; 
+    gap: 480px; 
+    margin-top: 20px; 
+}
+
+
+.button, .prev {
+    border: none;
+    background-color: rgb(2, 129, 255);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 20px; 
+    margin-bottom: 10;
+}
+.submit {
+    background-color: deepskyblue;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 15px;
+    color: white;
+    margin-top: 70px;
+}

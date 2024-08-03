@@ -1,0 +1,163 @@
+<html>
+    <head>
+        <title>Quiz</title>
+    </head>
+    <link rel="stylesheet" href="style.css">
+    <body>
+        <h1>Interactive Quiz</h1>
+        <div class="box" id="question1">
+
+            <p>1.What is the animal shown in the picture below</p>
+            <img id="img" src="https://imgs.search.brave.com/gcuN7pff1Ce8imQq8AdvOh4hDR0WZ2Ibpxh_fAaAnww/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9saWdl/ci1zaXR0aW5nLXpv/by10aGFpbGFuZC03/MDIwMDQxMi5qcGc">
+            <br></br>
+            <br></br>
+
+            <label>
+                <input type="radio" name="animal" value="Tiger">Tiger
+            </label><br></br> 
+
+            <label>
+                <input type="radio" name="animal" value="Lion">Lion
+            </label><br></br>            
+
+            <label>
+                <input type="radio" name="animal" value="Liger">Liger
+            </label><br></br> 
+
+            <label>
+                <input type="radio" name="animal" value="Puma">Puma
+            </label><br></br>
+            <br></br>
+            <button class="button" id="hint1">Hint</button>
+            <p id="ans1"></p>
+            <div id="timer1" style="font-size: 27px;">Time left: <span id="timerDisplay1">60</span> seconds</div>
+            <div class="button-container">
+                <button class="prev" id="prev1" style="display: none;">Previous</button>
+                <button class="button" id="next1">Next</button>
+            </div>
+        </div>
+
+        <div class="box" id="question2" style="display: none;">
+            
+            <p>2.What is the red planet</p>
+
+            <label>
+                <input type="radio" name="Planet" value="Earth">Earth
+            </label><br></br> 
+
+            <label>
+                <input type="radio" name="Planet" value="Mars">Mars
+            </label><br></br>            
+
+            <label>
+                <input type="radio" name="Planet" value="Jupiter">Jupiter
+            </label><br></br> 
+
+            <label>
+                <input type="radio" name="Planet" value="Venus">Venus
+            </label><br></br>
+            <br></br>
+            <button class="button" id="hint2">Hint</button>
+            <p id="ans2"></p>
+            <div id="timer2" style="font-size: 27px;">Time left: <span id="timerDisplay2">60</span> seconds</div>
+            <div class="button-container">
+                <button class="prev" id="prev2">Previous</button>
+                <button class="button" id="next2">Next</button>
+            </div>
+        </div>
+
+        <div class="box" id="question3" style="display: none;">
+            
+            <p>3.What is the process by which plants make their food?</p>
+
+            <label>
+                <input type="radio" name="plant" value="Photosynthesis">Photosynthesis
+            </label><br></br> 
+
+            <label>
+                <input type="radio" name="plant" value="Respiration">Respiration
+            </label><br></br>            
+
+            <label>
+                <input type="radio" name="plant" value="Digestion">Digestion
+            </label><br></br> 
+
+            <label>
+                <input type="radio" name="plant" value="Fermentation">Fermentation
+            </label><br></br>
+            <div id="timer3" style="font-size: 27px;">Time left: <span id="timerDisplay3">60</span> seconds</div>
+            <br></br>
+            <button class="button" id="hint3">Hint</button>
+            <p id="ans3"></p>
+            <div class="button-container">
+                <button class="prev" id="prev3">Previous</button>
+                <button class="button" id="next3">Next</button>
+            </div>
+        </div>
+
+        <div class="box" id="question4" style="display: none;">
+            
+            <p>4.Which of the following is used in a traditional motor racing</p>
+
+            <label>
+                <input type="radio" name="race" value="car">
+                <img src="https://imgs.search.brave.com/HJk2jYlxk-u7BWfXc_vtuA97ffC6i3ZdD9HbzawSdY0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy84/LzhmL01heF9WZXJz/dGFwcGVuXzIwMjIu/anBn" alt="car" width="150">
+            </label><br></br> 
+
+            <label>
+                <input type="radio" name="race" value="bike">
+                <img src="https://imgs.search.brave.com/CGk97-iGboUIuUKg7zY9K_DHlU5iJr1RoWC3dgmk5rU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTQy/OTgyOTQzNS9waG90/by9sdXh1cnktc3Bv/cnRzLWNhci1pbi11/bmRlcmdyb3VuZC1n/YXJhZ2UuanBnP3M9/NjEyeDYxMiZ3PTAm/az0yMCZjPWtHa3pi/QWJpMGhKQkVSTVZm/V19nLXFyM09LOFdl/c1pMSURhV0tkRm1p/MW89" alt="car" width="150">
+            </label><br></br>            
+
+            <label>
+                <input type="radio" name="race" value="bike">
+                <img src="https://imgs.search.brave.com/ninFis07xX-Wtc3jkKMwIJhOq-krNh8xvKa6DAFijvU/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by93aGl0ZS1zdXYt/Y2FyLWlzb2xhdGVk/LXdoaXRlLWJhY2tn/cm91bmRfODg3NDgx/LTE1MDkuanBnP3Np/emU9NjI2JmV4dD1q/cGc" alt="car" width="150">
+            </label><br></br> 
+
+            <label>
+                <input type="radio" name="race" value="bike">
+                <img src="https://imgs.search.brave.com/Z9NfR9-DODq076keBrgzmTL10qLxp-rCYmIjKQjIQsI/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAxLzE2LzM0LzY4/LzM2MF9GXzExNjM0/NjgzNl9Nc3A5Y0Rs/RlNwYkRsdGtHVWhF/anhqZHU2Q1ZlTFpN/WS5qcGc" alt="car" width="150">
+            </label><br></br>
+            <div id="timer4" style="font-size: 27px;">Time left: <span id="timerDisplay4">60</span> seconds</div>
+            <br></br>
+            <button class="button" id="hint4">Hint</button>
+            <p id="ans4"></p>
+            <div class="button-container">
+                <button class="prev" id="prev4">Previous</button>
+                <button class="button" id="next4">Next</button>
+            </div>
+        </div>
+
+        <div class="box" id="question5" style="display: none;">
+            
+            <p>5.The sun rises in the west.</p>
+            
+            <br></br>
+
+            <label>
+                <input type="radio" name="sun" value="True">True
+            </label><br></br> 
+
+            <label>
+                <input type="radio" name="sun" value="False">False
+            </label><br></br>            
+
+
+            <div id="timer5" style="font-size: 27px;">Time left: <span id="timerDisplay5">60</span> seconds</div>
+            <br></br>
+            <button class="button" id="hint5">Hint</button>
+            <p id="ans5"></p>
+            <div class="button-container">
+                <button class="prev" id="prev5">Previous</button>
+                <button class="button" id="next5">Next</button>
+            </div>
+        </div>
+
+
+
+        <button type="submit" class="submit" id="submit">Submit</button>
+        <p id="result"></p>
+        
+    </body>
+    <script src="script.js"></script>
+</html>
